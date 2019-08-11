@@ -353,7 +353,7 @@ ITEM_ATTRIBUTES = dict(
 if __name__ == '__main__':
     app = gui.QApplication(sys.argv)
 
-    w = gui.QDialog()
+    w = gui.QWidget()
 
     layout = AutoVBoxLayout(
         dict(FORMLAYOUT=[
@@ -370,5 +370,3 @@ if __name__ == '__main__':
     print(layout.input.text())
 
     sys.exit(app.exec_())
-
-    pass
