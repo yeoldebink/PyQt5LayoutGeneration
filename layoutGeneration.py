@@ -370,3 +370,5 @@ if __name__ == '__main__':
     print(layout.input.text())
 
     sys.exit(app.exec_())
+
+    pass
