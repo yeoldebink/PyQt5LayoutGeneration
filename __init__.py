@@ -1,1 +1,1 @@
-from layoutGeneration import AutoVBoxLayout, AutoHBoxLayout, AutoFormLayout, AutoGridLayout
+from PyQt5LayoutGeneration.layoutGeneration import AutoVBoxLayout, AutoHBoxLayout, AutoFormLayout, AutoGridLayout
